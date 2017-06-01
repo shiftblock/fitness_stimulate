@@ -1,0 +1,92 @@
+/* 
+* @Author: Marte
+* @Date:   2017-05-31 15:44:25
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-01 09:19:08
+*/
+html, body {
+                position: relative;
+                height: 100%;
+            }
+            @font-face {
+              font-family: "En";
+              src: url('font/Very_Damaged_UL.ttf');
+            }
+            body {
+                background: #eee;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 0.14rem;
+                color:#000;
+                margin: 0;
+                padding: 0;
+            }
+            .swiper-container {
+                width: 100%;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .swiper-slide {
+                text-align: center;
+                font-size: 0.18rem;
+                background:url("../../../pic/bg.jpg");
+                background-size: contain;
+
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .swiper-slide img{
+              width: 100%;
+            }
+            .tit{
+              /*position: absolute;*/
+              font-size: 0.35rem;
+              top: 0;
+              color: white;
+              padding-top: 0.5rem;
+              font-family: En;
+            }
+            .tip{
+              font-size: 0.25rem;
+              color: white;
+              font-family: "微软雅黑"
+            }
+
+            .myname img{
+
+              height: 0.5rem;
+              width: 0.5rem;
+              background: white;
+              border-radius: 50%;
+            }
+            .aud{
+              height: 0.5rem;
+              width: 0.5rem;
+
+            }
+            .aud img{
+              top: 0.5rem;
+              right: 0.5rem;
+              height: 0.2rem;
+              width: 0.3rem;
+              position: fixed;
+              animation: rtt 2s linear infinite;
+              z-index:100000000000;
+            }
+            @keyframes  rtt{
+              from{transform: rotate(0deg);}
+              to{transform: rotate(720deg);}
+            }

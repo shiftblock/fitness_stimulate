@@ -1,0 +1,62 @@
+<div class="swiper-container">
+            <div class="swiper-wrapper">
+            <audio id="audio" src="music/Janji,Johnning - Heroes Tonight.mp3" autoplay="true">
+          </audio>
+
+                <div class="swiper-slide" style="flex-direction:column">
+
+                      <img class="ani" swiper-animate-effect="bounce" style="height:2rem" src="pic/16.jpeg" alt="">
+                      <span class="tit">Patience</span>
+                    <span class="myname"><img src="pic/beastzzl.png" alt="123"></span>
+
+                </div>
+
+                <div class="swiper-slide" style="flex-direction:column">
+                  <img class="ani" swiper-animate-effect="bounceInRight" style="height:4rem" src="pic/15.jpg" alt="">
+                  <span class="tit ani" swiper-animate-effect="bounceInRight">Steven cao</span>
+                </div>
+                <div class="swiper-slide" style="flex-direction:column">
+                  <img class="ani" swiper-animate-effect=" rollIn" style="height:4rem" src="pic/16.jpg" alt="">
+                  <span class="tit ani" swiper-animate-effect=" rollIn" >Steven cook</span>
+                </div>
+                <div class="swiper-slide">
+                  <img class="ani" swiper-animate-effect=" zoomInUp" style="height:4rem" src="pic/17.jpg" alt="">
+                  <span class="tit ani" swiper-animate-effect=" zoomInUp" >Greg Plitt</span>
+                </div>
+                <div class="swiper-slide">
+                  <img class="ani" swiper-animate-effect=" rotateIn" style="height:4rem" src="pic/18.jpg" alt="">
+                  <span class="tit ani" swiper-animate-effect=" rotateIn" >simeon panda</span>
+                </div>
+                <div class="swiper-slide" >
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="0.3s" >坚</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="0.6s" >持</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="0.9s" >下</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="1.2s" >去</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="1.5s" >，</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="1.8s" >你</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="2.1s" >也</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="2.4s" >能</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="2.7s" >和</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="3s" >他</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="3.3s" >们</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="3.6s" >一</span>
+                  <span class="tip ani" swiper-animate-effect=" bounceInRight" swiper-animate-delay="3.9s" >样</span>
+
+                </div>
+            </div>
+    <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- 如果需要滚动条
+    <div class="swiper-scrollbar"></div>-->
+            </div>
+             <span class="aud"><img src="pic/play.png" alt=""></span>
+        <!-- <section class="audioM">
+            <img src="img/audio1.png" alt="" />
+
+            </audio>
+        </section> -->
